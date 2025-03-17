@@ -16,9 +16,9 @@ interface ContactSectionProps {
 }
 
 const ContactSection: React.FC<ContactSectionProps> = ({
-	email = "email@example.com",
-	github = "github.com/username",
-	linkedin = "linkedin.com/in/username",
+	email = "facentelaurent@gmail.com",
+	github = "github.com/laurentFacente",
+	linkedin = "linkedin.com/in/laurentfacente",
 }) => {
 	return (
 		<section className='space-y-6'>
@@ -26,9 +26,11 @@ const ContactSection: React.FC<ContactSectionProps> = ({
 			<div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
 				<div className='space-y-4'>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-						egestas justo at augue fringilla, vel tincidunt eros scelerisque.
-						Interested in working together? Feel free to reach out!
+						Looking for a skilled React/Next.js developer for your project? Lets
+						connect!
+					</p>
+					<p>
+						Feel free to reach out for freelance projects or job opportunities.
 					</p>
 					<div className='space-y-3'>
 						<div className='flex items-center gap-3'>

@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ExperienceSectionProps {
 	experiences?: Experience[];
 }
@@ -41,25 +39,26 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({
 
 const defaultExperiences: Experience[] = [
 	{
-		title: "Senior Frontend Developer",
-		company: "Tech Company Inc.",
-		period: "Jan 2022 - Present",
+		title: "React Frontend Developer",
+		company: "Squad (For CMA-CGM)",
+		period: "Mar 2023 - Jun 2025",
 		responsibilities: [
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Nullam egestas justo at augue fringilla, vel tincidunt eros scelerisque.",
-			"Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-			"Praesent sodales, libero eget ultricies tincidunt, justo ligula convallis justo.",
+			"Develop, and enhance user experiences through Front-End development using React and TypeScript.",
+			"Collaborate closely with designers to transform concepts into interactive interfaces, utilizing technologies such as Material UI for a modern and intuitive aesthetic.",
+			"Implement best practices in cybersecurity to ensure secure interfaces, protecting against potential threats.",
+			"Apply DevOps practices to enable smooth deployments and streamlined management through CI/CD pipelines, ensuring continuous delivery.",
 		],
 	},
 	{
 		title: "Frontend Developer",
-		company: "Digital Agency XYZ",
-		period: "Mar 2019 - Dec 2021",
+		company: "Axome",
+		period: "Jun 2022 - Oct 2022",
 		responsibilities: [
-			"Maecenas gravida fringilla nunc. Cras at magna eget nibh finibus faucibus.",
-			"Nullam ut blandit orci. Fusce eget nisi at erat fermentum interdum.",
-			"Donec sagittis velit sed magna ultricies, non bibendum neque venenatis.",
-			"Etiam convallis, nisi eget elementum aliquam, est est vestibulum arcu.",
+			"Design and development of e-commerce user interfaces.",
+			"Using Prestashop and Shopify technologies to implement online sales solutions.",
+			"Working closely with designers and back-end developers.",
+			"Implementing the user interface and integrating content.",
+			"Conducting user testing and ensuring the maintenance of developed websites and applications.",
 		],
 	},
 ];
